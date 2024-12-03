@@ -1,0 +1,1 @@
+export const MODEL_NAME = 'facebook/bart-base'; // Replace with your chosen model name
