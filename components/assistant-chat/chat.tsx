@@ -1,9 +1,15 @@
 "use client";
 import { useState } from "react"
 
+interface ChatMessage {
+  message: string;
+  to: string;
+  time: string;
+}
+
 const ChatAssistant = () => {
     const [showChat, setShowChat] = useState(false)
-    const [messages, setMessages] = useState([])
+    const [messages, setMessages] = useState<ChatMessage[]>([])
     const [message, setMessage] = useState("")
     return (
         <div className="chat-container">

@@ -1,7 +1,8 @@
 import MarketingWord from "@/components/marketing-word/marketing-word";
 import PageBanner from "@/components/page-banner";
 import CVModel from "@/components/cv/model"
-export const metadata: Metadata = {
+import { Metadata } from "next";
+export const metadata: Metadata= {
     title: "NZABONIMPA SEZIBERA Apollinaire",
     description: "Directeur Pays ALARM-Congo",
   };

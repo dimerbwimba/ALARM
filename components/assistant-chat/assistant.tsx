@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+
+interface ChatMessage {
+  user: boolean;
+  message: string;
+}
 
 const Chat = () => {
   const [gemini, setGemini] = useState(null);
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [userInput, setUserInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -14,11 +18,9 @@ const Chat = () => {
   useEffect(() => {
     const initializeGemini = async () => {
       try {
-        const genAI = new GoogleGenerativeAI({ apiKey: API_KEY });
-        const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
-        setGemini(model);
+        
       } catch (err) {
-        setError(err.message);
+       
       } finally {
         setIsLoading(false);
       }
@@ -37,15 +39,10 @@ const Chat = () => {
     setError(null);
 
     try {
-      const response = await gemini.generateText({
-        prompt: userInput,
-        maxTokens: 1024, // Adjust as needed to control response length
-        temperature: 0.7, // Adjust temperature to control creativity vs. informativeness
-      });
-
-      setMessages([...messages, { user: false, message: response.text }]);
+     
+      setMessages([...messages, { user: false, message: "" }]);
       setUserInput('');
-    } catch (err) {
+    } catch (err:any) {
       setError(err.message);
     } finally {
       setIsLoading(false);

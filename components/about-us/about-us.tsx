@@ -27,14 +27,12 @@ const AboutUs = () => {
                 un avenir meilleur !
               </p>
 
-              <SimpleSliderResponsive>
+              <SimpleSliderResponsive slidesToShow={1}>
                 {[
                   "https://i.ibb.co/Gpy3sQj/IMG-0006-compressed.jpg",
                   "https://i.ibb.co/j4PwWfT/IMG-1480-compressed.jpg",
                 ].map((item, index) => (
-                  // <div key={index} className=" px-2">
                   <img key={index} className="px-2" src={item} alt="About" />
-                  // </div>
                 ))}
               </SimpleSliderResponsive>
             </div>
