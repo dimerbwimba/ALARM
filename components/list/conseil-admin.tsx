@@ -9,7 +9,7 @@ const ConseilAdminList = () => {
                     <div className="col-xl-6 col-lg-8 col-md-10">
                         <div className="section-title text-center mb-60">
                             <span className="section-title__subtitle mb-10">ALARM RDC</span>
-                            <h2> Membres du Conseil <span>D'Administration</span></h2>
+                            <h2> Membres du Conseil <span>D&apos;Administration</span></h2>
 
                         </div>
                     </div>
