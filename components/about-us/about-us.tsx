@@ -53,7 +53,7 @@ const AboutUs = () => {
               >
                 <span className="experiences-year__number">25</span>
                 <span className="experiences-year__text">
-                  ans d'experiences
+                  ans d&apos;experiences
                 </span>
               </div>
             </div>

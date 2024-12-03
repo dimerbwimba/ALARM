@@ -30,7 +30,7 @@ const ContactezNous = () => {
                             <div className="counter-item counter-text-wrap">
                                 <div className="counter-item__content">
                                     <span className="count-text" data-speed="3000" data-stop="80">0</span>
-                                    <h5 className="counter-title">Centre d'ALARM</h5>
+                                    <h5 className="counter-title">Centre d&apos;ALARM</h5>
                                 </div>
                             </div>
                             <div className="project-complete">
