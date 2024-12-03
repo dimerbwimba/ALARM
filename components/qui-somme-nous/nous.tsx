@@ -13,7 +13,7 @@ const Nous = () => {
                   <h3>Historique d&apos;ALARM CONGO</h3>
                 </div>
                 <p>
-                  Africa Leadership and Reconciliation Ministries "ALARM", fut
+                  Africa Leadership and Reconciliation Ministries &apos;ALARM&apos;, fut
                   créer en 1995 à Nairobi au Kenya sur l&apos;initiative des
                   chrétiens qui sont rendu compte des sérieux problèmes auxquels
                   est confronté l&apos;Afrique. Alors que ALARM/Congo fut créer en
@@ -21,7 +21,7 @@ const Nous = () => {
                 </p>
                 <p>
                   La principale objectif était de formé les leaders de
-                  promouvoir les enseignements aux églises. precher l'afrique
+                  promouvoir les enseignements aux églises. precher l&apos;afrique
                   tel que le tribalisme, le haine, les maladies sexuelement
                   transmissibles, et la pauvreté.
                 </p>
