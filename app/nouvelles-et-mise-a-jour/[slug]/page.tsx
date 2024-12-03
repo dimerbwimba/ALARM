@@ -15,7 +15,7 @@ export default function BlogDetails() {
                             <div className="row gap-60">
                                 <div className="">
                                     <div className="blog-details-content mb-55">
-                                        <h2>Reunion du conseille d'administration</h2>
+                                        <h2>Reunion du conseille d&apos;administration</h2>
                                         <hr />
                                         <ul className="blog-meta">
                                             <li><i className="flaticon-user"></i> <a href="#">Bwimba Mihandago Dimer</a></li>

@@ -7,7 +7,7 @@ const Projets = () => {
                         <div className="">
                             <div className="blog-details-content mb-55">
                                 <hr />
-                                <h2>List des Projets À Long Terme D'ALARM RDC</h2>
+                                <h2>List des Projets À Long Terme D&apos;ALARM CONGO</h2>
                                 <hr />
                                 <ul className="blog-meta">
                                     <li><i className="flaticon-user"></i> <a href="#">Rev. PUTULU LUKOZI Alphonse</a></li>
@@ -30,7 +30,7 @@ const Projets = () => {
                                     <div className="col-md-12 col-sm-12">
                                         <ul className="list-style-two">
                                             <li className="pl-5">Récruté 60 participants pour le PLTI et WLTI.</li>
-                                            <li className="pl-5">Enrégistré 60 pasteurs et le faire signé une lettre d'engagement.</li>
+                                            <li className="pl-5">Enrégistré 60 pasteurs et le faire signé une lettre d&apos;engagement.</li>
                                             <li className="pl-5">Faire une formation 4 fois par ans.</li>
                                         </ul>
                                     </div>

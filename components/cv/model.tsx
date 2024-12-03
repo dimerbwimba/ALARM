@@ -43,7 +43,7 @@ const CVModel = ({ data, title, image="" }: { data: any, title:string, image:str
                                                             <div className="info"><div className="titre">{info.name}</div> <span style={{ paddingLeft: "4px", paddingRight: "4px" }}>:</span><div>{info.info}</div></div>
                                                         ))}
                                                         {item?.educations?.map((info: any, index: number) => (
-                                                            <div className="education col">
+                                                            <div key={index} className="education col">
                                                                 <div className="col-md-12">
                                                                     <h6 style={{ marginBottom: "0px" }} className="titre">{info.uni}</h6>
                                                                     <div>{info.cert}</div>
@@ -58,7 +58,7 @@ const CVModel = ({ data, title, image="" }: { data: any, title:string, image:str
                                                         ))}
                                                         {
                                                             item.experience_prossionnels?.map((data: any, item: any) => (
-                                                                <div>
+                                                                <div key={index}>
                                                                     <div style={{ borderColor: "green", borderLeft: "4px solid", paddingLeft: "10px", marginBottom: "4px", marginTop: "4px" }}>
                                                                         <h5 style={{ marginBottom: "0px" }}>{data.titre.ci}</h5>
                                                                         <div>{data.titre.desc}</div>

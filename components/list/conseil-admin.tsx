@@ -78,7 +78,7 @@ const ConseilAdminList = () => {
                                 <div className="">
                                     <div className="blog-details-content mb-55">
                                         <hr />
-                                        <h2>Role du conseil d'Administration au sein d'ALARM RDC</h2>
+                                        <h2>Role du conseil d&apos;Administration au sein d&apos;ALARM CONGO</h2>
                                         <hr />
                                         <ul className="blog-meta">
                                             <li><i className="flaticon-user"></i> <a href="#">Rev. PUTULU LUKOZI Alphonse</a></li>

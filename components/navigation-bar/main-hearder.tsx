@@ -35,14 +35,14 @@ const MainHearder = () => {
                                 <a href="#">À propos de nous</a>
                                 <ul className="sub-menu">
                                     <li><a href="/qui-somme-nous">Qui somme nous </a></li>
-                                    <li><a href="/conseil-admin">Conseils d'administration</a></li>
+                                    <li><a href="/conseil-admin">Conseils d&apos;administration</a></li>
                                     <li><Link href="/valeurs-fondamentales">Valeurs fondamentales</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
                                 <a href="#">Notre travail</a>
                                 <ul className="sub-menu">
-                                    <li><a href="#">Secteur d'intérêt</a></li>
+                                    <li><a href="#">Secteur d&apos;intérêt</a></li>
                                     <li><Link href="/projet-a-long-term">projet à long terme</Link></li>
                                     <li><a href="/nouvelles-et-mise-a-jour">nouvelles et mises à jour</a></li>
 

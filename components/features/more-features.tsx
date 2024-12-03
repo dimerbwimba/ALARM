@@ -28,7 +28,7 @@ const MoreFeautures = () => {
                                         <div className="experiences-years">
                                             <span className="experiences-years__number">25</span>
                                             <span className="experiences-years__text">
-                                            Années d'expériences</span>
+                                            Années d&apos;expériences</span>
                                         </div>
                                     </div>
                                     <div className="image">
@@ -54,7 +54,7 @@ const MoreFeautures = () => {
                                         "https://files.edgestore.dev/6jpwoivpjaowfuhl/publicFiles/_public/1f51df50-22e7-4d21-bb39-2ec5d35a8ace.png"
 
                                     ].map((item, index) => (
-                                        <div className="client-logo-item col-xl-2 col-md-2">
+                                        <div key={index} className="client-logo-item col-xl-2 col-md-2">
                                             <a href="#"><img style={{ height: "150px", width: "150px", objectFit: "contain", borderRadius: "15px", overflow: "hidden" }} src={item} alt="Client Logo" /></a>
                                         </div>
 

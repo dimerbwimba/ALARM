@@ -51,7 +51,7 @@ const DepartementList = () => {
                                 <div className="widget widget_catagory">
                                     <ul className="catagory-items">
                                         <li><a href="#">Renforcer les capacité économiques</a></li>
-                                        <li><a href="#">Education à l'économie domestique</a></li>
+                                        <li><a href="#">Education à l&apos;économie domestique</a></li>
                                         <li><a href="#">Formation en coupe et couture</a></li>
                                         <li><a href="#">Adduction en eau potable</a></li>
                                         <li><a href="#">Scolarisation des enfants orphelins</a></li>

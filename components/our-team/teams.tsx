@@ -79,7 +79,7 @@ const Teams = () => {
                             },
                         ].map((item, index) => (
 
-                            <div className="col-xl-4 col-sm-6">
+                            <div key={index} className="col-xl-4 col-sm-6">
                                 <div className="valunteer-item valunteer-item--green">
                                     <div className="valunteer-item__img">
                                         <img style={{ height: "250px", width: "300px", objectFit: "contain", borderRadius: "15px", overflow: "hidden" }} src={item.photo} alt={item.name} />

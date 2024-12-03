@@ -25,7 +25,7 @@ const ContactezNous = () => {
                             />
                             <div className="experiences-years">
                                 <span className="experiences-years__number">25</span>
-                                <span className="experiences-years__text">Ans d'Experiences</span>
+                                <span className="experiences-years__text">Ans d&apos;Experiences</span>
                             </div>
                             <div className="counter-item counter-text-wrap">
                                 <div className="counter-item__content">
@@ -48,13 +48,13 @@ const ContactezNous = () => {
                     <div className="col-lg-6">
                         <div className="contact-page-form form-style-two py-110 rpy-85">
                             <div className="section-title mb-10">
-                                <span className="section-title__subtitle mb-10">Besoin d'aide ?</span>
+                                <span className="section-title__subtitle mb-10">Besoin d&apos;aide ?</span>
                                 <h3>Contactez nous</h3>
                             </div>
                             <form action="#">
                                 <div className="row">
                                     <div className="col-xl-9 mb-10">
-                                        <p>Envoie nous un message pour plus d'imformation et autre imformation populaire.</p>
+                                        <p>Envoie nous un message pour plus d&apos;imformation et autre imformation populaire.</p>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-group">
