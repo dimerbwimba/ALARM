@@ -180,7 +180,11 @@ export default function MeDaniel() {
     return (
         <>
             <PageBanner image="/assets/img/DSC_0547.JPG" title="Maitre Daniel KILANGALANGA OPONDJO" />
-            <CVModel data={data}/>
+            <CVModel 
+                data={data}
+                title="Maitre Daniel KILANGALANGA OPONDJO"
+                image="/assets/img/DSC_0547.JPG"
+            />
             <MarketingWord />
         </>
     )
